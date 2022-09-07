@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+.logo h1{
+    font-size: 40px;
+    padding: 50px;
+}
+.search{
+    position: fixed;
+    right: 90px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.search input{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    letter-spacing: 2px;
+    text-shadow: 2;
+}
+.header1{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+
+}
+.header1 img{
+    width: 400px;
+}
+.headerbutton1{
+     position: absolute;
+     top: 40%;
+     left: 60%;
+}
+
+.headerbutton1 h1, h2{
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.headerbutton1 h1{
+    letter-spacing: 15px;
+}
+span{
+    color: rgb(41, 196, 196);
+}
+.btn{
+    background-color: rgb(48, 35, 35);
+    padding: 10px 35px;
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(41, 196, 196);
+}
+.iconarea{
+    position: fixed;
+    top: 40%;
+    left: 30px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 30px black;
+}
+.iconarea a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px 15px;
+}
+.iconarea a:hover .fa-brands fa-facebook{
+    color: blue;
+}
+.iconarea a:hover .fa-brands fa-twitter{
+    color: aqua;
+}
+.iconarea a:hover .fa-brands fa-instagram{
+    color: red;
+}
+.iconarea a:hover .fa-brands fa-youtube{
+    color: red;
+}
+.productarea{
+    width: 85%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    position: relative;
+    background-size: 1200px;
+    padding-top: 500px;
+}
+
+.productarea h3{
+    font-size: 40px;
+    color: rgb(105, 93, 93);
+    font-family: Bodoni MT Condensed;
+    letter-spacing: 5px;
+    padding-bottom: 100px;
+}
+.product{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.productBox{
+    width: 300px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+}
+.productBox img{
+    width: 150px;
+    height: 150px;
+}
+.productBox p{
+    font-size: 16px;
+    color: rgb(141, 133, 133);
+    padding: 5px 0px;
+}
+.productBox a{
+    text-decoration: none;
+    color: #000;
+    padding: 3px;
+}
+.btn{
+    background-color: aqua;
+    border-radius: 50px;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    color: white;
+    animation: fade 0.2s;
+    border: none;
+    display: none;
+}
+.productBox:hover .btn{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    width: 85%;
+    margin: 30px auto;
+    display: flex;
+    padding: 40px 20px;
+    position: relative;
+    background-size: 1000px;
+}
+.description{
+    padding: 50px;
+    width: 50%;
+    margin: 50px 50px;
+    display: inline-block;
+    float: left;
+    flex-direction: column;
+}
+.description h2{
+    font-family: tahoma;
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: rgb(48, 41, 41);
+}
+.description h3{
+    font-family: Bahnschrift Light;
+    color: rgb(39, 36, 36);
+    font-size: 35px;
+}
+.description p{
+    color: rgb(114, 106, 106);
+    padding-top: 5px;
+}
+.descript img{
+    width: 500px;
+    height: 400px;
+}
+.watcharea{
+    width: 85%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    position: relative;
+    background-size: 1000px;
+    padding-top: 1350px;
+}
+
+.watcharea h3{
+    font-size: 40px;
+    color: rgb(105, 93, 93);
+    font-family: Bodoni MT Condensed;
+    letter-spacing: 5px;
+    padding-bottom: 100px;
+}
+.mail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mail h3{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.mail input{
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    box-shadow: 1px 2px 50px rgb(168, 161, 161);
+}
+.mail a{
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+
+.footer1{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+.footer1 p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
